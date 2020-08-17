@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+    .person__block {
+        flex-direction: column;
+        padding: 0em 1em;
+        padding-top: 0px;
+
+        margin: 3em auto;
+
+        align-items: flex-start!important;
+    }
+
+    .person__main-info {
+        justify-content: flex-start!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        border-bottom: 1px solid silver;
+        width: 100%;
+    }
+
+    .person__info {
+        margin-top: -3em;
+    }
+
+    .person__ava {
+        width: 50px;
+        transform: translateY(-50%);
+    }
+
+    .person__info {
+        padding: 2em 0px 1em 0em;
+    }
+
+    .person__job {
+        padding: .5em 0px;
+        font-size: 13px!important;
+    }
+
+    .person__skills-list {
+        width: 100%;
+        padding: 1em 0px 2em 0px;
+        margin: 0px!important;
+        justify-content: flex-start;
+    }
+
+    .person__skill {
+        margin: 0px!important;
+        margin-right: 1em!important;
+    }
+}
