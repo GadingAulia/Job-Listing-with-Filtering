@@ -45,7 +45,7 @@
     }
 
     .person__skill {
-        margin: 0px!important;
+        margin: 1em 0px!important;
         margin-right: 1em!important;
     }
 }
