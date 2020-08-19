@@ -55,9 +55,10 @@ class Person extends Component {
 
     checkVisibility = filterList => {
         let matchFound = 0
+        let tempUserSkills = this.userSkills.map(skill => skill.toLowerCase())
 
         for (let filter of filterList)
-            if (this.userSkills.includes(filter))
+            if (tempUserSkills.includes(filter.toLowerCase()))
                 matchFound++
 
         this.setState({

@@ -13,11 +13,11 @@ class Search extends Component {
     render() {
         return (
             <div className="search__block">
-                <div className="filters-name__block">
+                <label className="filters-name__block">
                     { this.state.skills }
 
                     <SkillInput addSkill={ this.addSkill.bind(this) } />
-                </div>
+                </label>
                 <div className="clear__block">
                     <button className="clear__button" onClick={ this.clear }>Clear</button>
                 </div>

@@ -7,7 +7,7 @@ class SkillInput extends Component {
 
     render() {
         return (
-            <input type="text" className="filter-name__input" value={ this.state.skillName } onChange={ this.setValue } onKeyDown={ this.filter } />
+            <input type="text" name="filter-name__input" className="filter-name__input" value={ this.state.skillName } onChange={ this.setValue } onKeyDown={ this.filter } />
         )
     }
 
